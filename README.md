@@ -4,7 +4,7 @@
   <img src="https://img.shields.io/badge/ChemBERTa-77M--MTR-FF6F00?style=for-the-badge&logo=huggingface&logoColor=white" />
   <img src="https://img.shields.io/badge/BioGPT-PubMed-blueviolet?style=for-the-badge&logo=microsoft&logoColor=white" />
   <img src="https://img.shields.io/badge/3Dmol.js-Viewer-34d399?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Razorpay-Stripe-0C2451?style=for-the-badge&logo=razorpay&logoColor=white" />
+  <img src="https://img.shields.io/badge/Razorpay-0C2451?style=for-the-badge&logo=razorpay&logoColor=white" />
 </p>
 
 <h1 align="center">⚗️ DrugDisco AI — AI-Powered Drug Discovery SaaS Platform</h1>
@@ -12,7 +12,7 @@
 <p align="center">
   <strong>A production-grade, full-stack SaaS platform for AI-driven drug discovery</strong><br/>
   Combining ChemBERTa neural predictions, BioGPT biomedical chatbot, 3D molecular visualization,<br/>
-  multi-database knowledge integration, and Razorpay/Stripe billing — all in one unified interface.
+  multi-database knowledge integration, and Razorpay billing — all in one unified interface.
 </p>
 
 ---
@@ -173,7 +173,7 @@ ai-unified-platform/
 | **BioGPT** | Biomedical language model for chatbot (Microsoft) |
 | **MongoDB** | Document database for users, molecules, projects |
 | **JWT + bcrypt** | Secure authentication with OTP email verification |
-| **Razorpay / Stripe** | Payment gateway integration |
+| **Razorpay** | Payment gateway integration |
 
 ### External APIs
 | API | Data |
@@ -251,9 +251,6 @@ SMTP_PASS=your-app-password
 # Payments (optional — runs in sandbox mode without these)
 RAZORPAY_KEY_ID=rzp_test_xxxxx
 RAZORPAY_KEY_SECRET=your-razorpay-secret
-# OR
-STRIPE_SECRET_KEY=sk_test_xxxxx
-STRIPE_WEBHOOK_SECRET=whsec_xxxxx
 ```
 
 ---
@@ -345,7 +342,6 @@ The platform supports **three billing modes** out of the box:
 | Mode | Provider | Supported Methods |
 |------|----------|-------------------|
 | **Razorpay** | Indian gateway | UPI, Net Banking, Cards, Wallets |
-| **Stripe** | Global gateway | Credit/Debit Cards worldwide |
 | **Sandbox** | Mock provider | Auto-verified (for development/demo) |
 
 Plans: **Free** (50 credits) → **Pro** (2,000 credits) → **Enterprise** (unlimited)
@@ -368,6 +364,4 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 <p align="center">
   <strong>⚗️ DrugDisco AI</strong> — Accelerating Drug Discovery with Artificial Intelligence
-  <br/>
-  <sub>Built with ❤️ using React, FastAPI, ChemBERTa, BioGPT & RDKit</sub>
 </p>
