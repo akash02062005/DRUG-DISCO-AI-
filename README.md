@@ -54,7 +54,7 @@ Whether you're a pharmaceutical researcher screening lead compounds or a student
 | **Molecule Library** | Save, tag, reassign, and delete molecules across projects |
 | **Analytics Dashboard** | Track usage with bar/pie charts and recent activity feed |
 | **Tiered Pricing** | Free / Pro / Enterprise plans with credit-based billing |
-| **Payment Gateway** | Razorpay (UPI/cards/netbanking) + Stripe (global cards) + sandbox mode |
+| **Payment Gateway** | Razorpay (UPI/cards/netbanking)  + sandbox mode |
 | **JWT Authentication** | Email + password auth with OTP email verification via SMTP |
 
 ---
